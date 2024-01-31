@@ -1,0 +1,14 @@
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('cashier')]" position="attributes">
+                <attribute name="t-att-class">{'oe_hidden': userHidden}</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('cashier')]" position="after">
+            <t t-if="userHidden and HideUserOption == 'replace'">
+                <div>--------------------------------</div>
+                <div class="cashier">Served by <t-esc t-esc="UserTrigram" /></div>
+            </t>
+        </xpath>
+    </t>
+
+</templates>

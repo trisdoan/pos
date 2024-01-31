@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+  <t t-name="pos_receipt_hide_user.hide_user" owl="1">
+    <div class="button hide_user" t-on-click="hideUser">
+      <i
+                class='fa'
+                t-att-class="{ 'fa-eye': userHidden, 'fa-eye-slash': !userHidden }"
+            />
+      <t t-if="userHidden">Show User</t>
+      <t t-else="">Hide User</t>
+    </div>
+  </t>
+</templates>
