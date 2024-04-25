@@ -1,1 +1,0 @@
-Removes user from POS receipt.
