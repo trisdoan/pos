@@ -11,7 +11,7 @@
                     <setting
                     id="margin_and_cost_admin"
                     string="Margins &amp; Costs (Admin)"
-                    help="Show margins &amp; costs on product information for Admin"
+                    help="When disabled, margin and cost of product are hidden in the Product info."
                 >
                         <field name="pos_is_margins_costs_accessible_to_admin" />
                     </setting>

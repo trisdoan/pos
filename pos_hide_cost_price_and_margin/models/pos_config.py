@@ -10,7 +10,6 @@ class PosConfig(models.Model):
     is_margins_costs_accessible_to_admin = fields.Boolean(
         string="Margins & Costs (Admin)",
         default=False,
-        help="When disabled, margin and cost of product are hide in the Product info.",
     )
     is_margins_costs_accessible_to_every_user = fields.Boolean(
         compute="_compute_is_margins_costs_accessible_to_every_user",
