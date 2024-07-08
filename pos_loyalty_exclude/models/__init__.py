@@ -1,1 +1,1 @@
-from . import loyalty_rule
+# from . import loyalty_rule
