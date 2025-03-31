@@ -4,7 +4,7 @@
 {
     "name": "POS Display Order Number",
     "summary": "POS - Display order number in order summary",
-    "version": "17.0.1.0.1",
+    "version": "18.0.1.0.0",
     "development_status": "Beta",
     "category": "Point Of Sale",
     "website": "https://github.com/OCA/pos",
@@ -17,7 +17,7 @@
     "assets": {
         "point_of_sale._assets_pos": [
             "pos_display_order_number/static/src/xml/pos_display_order_number.xml",
-            "pos_display_order_number/static/src/js/overrides/components/order_widget/order_widget.js",
+            "pos_display_order_number/static/src/js/overrides/components/order_widget/order_widget.esm.js",
         ],
         "web.assets_tests": [
             "pos_display_order_number/static/tests/tours/**/*",
