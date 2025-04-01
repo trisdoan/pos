@@ -1,0 +1,2 @@
+#FIXME: update pr#
+odoo-addon-pos_divide_order_summary @ git+https://github.com/trisdoan/pos.git@refs/pull/20/head#subdirectory=pos_divide_order_summary
